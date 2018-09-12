@@ -6,6 +6,7 @@
     <groupId>com.dist.dsrd</groupId>
     <artifactId>dsrd-parent</artifactId>
     <version>1.0.0.0</version>
+    <packaging>pom</packaging>
 
 
     <modules>
@@ -15,6 +16,8 @@
         <module>dsrd-net</module>
         <module>dsrd-serialization</module>
         <module>dsrd-raft</module>
+        <module>dsrd-test</module>
+        <module>dsrd-all</module>
     </modules>
 
     <dependencyManagement>
