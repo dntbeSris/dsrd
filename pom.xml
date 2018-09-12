@@ -14,12 +14,17 @@
         <module>dsrd-config</module>
         <module>dsrd-net</module>
         <module>dsrd-serialization</module>
+        <module>dsrd-raft</module>
     </modules>
 
     <dependencyManagement>
 
     </dependencyManagement>
     <dependencies>
-
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.25.Final</version>
+        </dependency>
     </dependencies>
 </project>
